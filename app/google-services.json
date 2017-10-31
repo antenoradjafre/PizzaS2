@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "8496548799",
+    "firebase_url": "https://pizzas2-2a655.firebaseio.com",
+    "project_id": "pizzas2-2a655",
+    "storage_bucket": "pizzas2-2a655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8496548799:android:e3b13a7eb9850cbc",
+        "android_client_info": {
+          "package_name": "com.fa7.antenor.pizzas2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8496548799-runv5pju3pn9lrbkgqh25o0l7rqunbla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzeg9RU3srgfbN28g3P56vc9EEWkmdAhw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
