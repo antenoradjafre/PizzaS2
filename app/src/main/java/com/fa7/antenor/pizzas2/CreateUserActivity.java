@@ -58,8 +58,8 @@ public class CreateUserActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View v) {
         CreateUserActivity _this = this;
-        String name = edtName.getText().toString();
-        String mail = edtMail.getText().toString();
+        final String name = edtName.getText().toString();
+        final String mail = edtMail.getText().toString();
         String password = edtPass.getText().toString();
         user = new User(name, mail, password);
 
@@ -71,7 +71,7 @@ public class CreateUserActivity extends AppCompatActivity implements View.OnClic
                             // Sign in success, update UI with the signed-in authUser's information
                             FirebaseUser authUser = auth.getCurrentUser();
                             FirebaseDatabase data = FirebaseDatabase.getInstance();
-                            DatabaseReference myRef = data.getReference("USER");
+                            DatabaseReference myRef = data.getReference("users/"+authUser.getUid());
                             myRef.setValue(user);
                             updateUI(authUser);
                         } else {
